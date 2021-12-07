@@ -61,6 +61,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
+ 
 }
 
 /* TODO: Add properties to the cards to achieve the required look */
@@ -70,6 +71,9 @@ footer {
   padding: 10px;
   margin: 20px;
   flex: 0 0 300px;
+  border-radius: 30px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
 }
 
 .card header {
